@@ -1,7 +1,8 @@
 nav{
 display: flex;
 justify-content: space-between;
-
+align-items: center;
+margin: 0 200px;
 }
 body{
     font-family: 'Lato',sans-serif;
@@ -35,4 +36,35 @@ nav li{
 }
 nav a{
     text-decoration: none;
+}
+.header{
+    background-color: antiquewhite;
+  background-image: url('header_bg.png');
+  background-position: bottom;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;}
+ .banner.profile-pic{
+    width: 500px;
+    height: 676px;
+   
+  
+    
+}
+.banner-gre{
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600px; 
+    color: rgb(48, 41, 41);
+    margin-bottom: 0px;
+    
+}
+.header-banner{
+    width: 1036px;
+    height: 518px;
+    flex-shrink: 0;
+    background-color: fill: rgba(253, 110, 10, 0.10);;
 }
